@@ -20,10 +20,10 @@ struct Date {
         case 3: cout <<"Introduce-ti judetul:"; cin >> date.judet;
         case 4: cout <<"Introduce-ti numarul strazii: "; cin >> date.numar;
         case 5: cout<<"Introduce-ti codul postal: "; cin>>date.codPostal;}    break;  // cu break opresc for-ul...
-    }
-     }
+}
+}
          void Fafisare(Date date){
-           cout<<"------------------------------"<<endl;
+           cout<<"------------------------------"<<endl;   // o delimitare..
            cout<<"Ma numesc: "<<date.prenume<<endl;
            cout<<"M-am nascut in judetul: "<<date.judet<<endl;
            cout<<"In orasul: "<<date.oras<<endl;
